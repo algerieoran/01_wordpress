@@ -1,0 +1,60 @@
+/*
+Theme Name: Twentyseventeen Child
+Description: Theme enfant de Setti Belkacem LePoleS, à partir de Tentyseventeenfabriquer à Pantin sous la canicule en juillet 2018
+Author: Setti Belkacem - Le Tourisme en Afrique
+Author URI: localhost/01_wordpress
+Template: twentyseventeen
+Version: 0.1.0
+*/
+.admin-bar .site-navigation-fixed.navigation-top {
+    top: 32px;
+    background-image: url(img/stock-vector-tropical-seamless-leaves-pattern-vector-illustration-1024540843.jpg);
+}
+
+.navigation-top {
+    bottom: 0;
+    font-size: 14px;
+    font-size: 0.875rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+    background-image: url(img/chevron-vecteur-de-style-africain-avec-des-motifs-tribaux_1110-455.jpg);
+}
+.navigation-top a {
+    color: #00FF00;
+    font-weight: 600;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.page:not(.home) #content {
+    padding-bottom: 3.25em;
+    background-image: url('img/afrique-jungle-ethnique-tribu-voyage-seamless-pattern-vector-illustration_1284-2774.jpg');
+}
+.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
+    bottom: 0;
+    display: block;
+    left: 0;
+    height: auto;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+    color: orangered;
+}
+
+body, button, input, select, textarea {
+    color: #333;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.site-footer {
+    border-top: 1px solid #eee;
+    background-image: url(img/afrique-jungle-ethnique-tribu-voyage-seamless-pattern-vector-illustration_1284-2774.jpg);
+    color: black;
+}
+
